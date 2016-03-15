@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuPrincipal Event sheet </name>
+    <events>
+        <event-block sid="3393445382467574">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8956030074713024" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6381119341740638" type="Carta">
+                    <param id="0" name="Animation">&quot;Cara&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6563050163415366">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6488244963733868" type="Touch">
+                    <param id="0" name="Object">BotonIniciar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4273285253311496" type="System">
+                    <param id="0" name="Layout">PortadaNivel</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

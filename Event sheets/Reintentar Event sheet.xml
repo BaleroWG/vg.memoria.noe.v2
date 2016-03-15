@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Reintentar Event sheet</name>
+    <events>
+        <event-block sid="11084750943026">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5590522560233455" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7708403586720941" type="Carta">
+                    <param id="0" name="Animation">&quot;Cara&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="1382444503477243" type="PortadaNivel">
+                    <param id="0" name="Frame number">gNivelActual - 1</param>
+                </action>
+                <action id="33" name="Stop all" sid="7175567826271059" type="Sonido" />
+            </actions>
+        </event-block>
+        <event-block sid="9902083509365728">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2474192871463418" type="Touch">
+                    <param id="0" name="Object">botonVolverAJugar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6694966498225224" type="System">
+                    <param id="0" name="Layout">Principal</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

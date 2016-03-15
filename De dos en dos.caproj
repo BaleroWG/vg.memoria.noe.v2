@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>De dos en dos</name>
+    <description>Ayuda a Noé a ordenar a los animales del arca</description>
+    <version>1.0.0.0</version>
+    <author>Marcelo Alejandro Fernández</author>
+    <author-email>maralefer@outlook.com.ar</author-email>
+    <author-website>http://</author-website>
+    <app-id>com.maralefer.de2en2</app-id>
+    <unique-id>2qq6d4dlgqzmu</unique-id>
+    <saved-with-version>20600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1366</width>
+        <height>768</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>MenuPrincipal</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="1507372668240787">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Carta" sid="399898126268736">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="La cara de la carta" name="FrameDeLaCara" sid="7874403287340056" type="number" />
+                <instance-variable comment="Indica si la cara de la carta es visible" name="CaraVisible" sid="5142238925588951" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Reverso" pingpong="0" repeatcount="1" repeatto="0" sid="4162984396951394" speed="5">
+                    <frame duration="1" hotspotX="0.505" hotspotY="0.495">
+                        <collision-poly>
+                            <point x="0.145" y="0" />
+                            <point x="0.855" y="0" />
+                            <point x="0.9575" y="0.2675" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.045" y="0.2075" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="32" loop="0" name="Cara" pingpong="0" repeatcount="1" repeatto="0" sid="6655998855382831" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="PosicionCartas" sid="980173579029151">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="NivelAnchoAlto" sid="7647834579919866">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="Niveles" sid="7848360516340731">
+            <plugin id="Dictionary" />
+        </object-type>
+        <object-type name="AJAX" sid="8951584062165738">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="Button" sid="8572944368514834">
+            <plugin id="Button" />
+            <instance-variables>
+                <instance-variable comment="Key del nivel en Dic::Niveles" name="KeyNivel" sid="4927650893385921" type="string" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Function" sid="2974200000658298">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Touch" sid="4987570180991954">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type global="1" name="MazoDeCartas" sid="6721383618479713">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Sonido" sid="1828405705773279">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="HUD" sid="9500482305838208">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3216871017526282" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0183333" y="0.11" />
+                            <point x="0.5" y="0.04" />
+                            <point x="0.933333" y="0.4" />
+                            <point x="0.981667" y="0.5" />
+                            <point x="0.976667" y="0.86" />
+                            <point x="0.5" y="0.92" />
+                            <point x="0.0266667" y="0.84" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cuerno" sid="4681442532017211">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Activado" pingpong="0" repeatcount="1" repeatto="0" sid="2311974883991005" speed="0">
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.39726" y="0.659091" />
+                            <point x="0.493151" y="0.545455" />
+                            <point x="0.945205" y="0.0909091" />
+                            <point x="0.986301" y="0.5" />
+                            <point x="0.849315" y="0.75" />
+                            <point x="0.493151" y="0.954545" />
+                            <point x="0.0410959" y="0.931818" />
+                            <point x="0.534247" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Desactivado" pingpong="0" repeatcount="1" repeatto="0" sid="2768773565074297" speed="0">
+                    <frame duration="1" hotspotX="0.506849" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.369863" y="0.613636" />
+                            <point x="0.493151" y="0.477273" />
+                            <point x="0.945205" y="0.0909091" />
+                            <point x="0.958904" y="0.5" />
+                            <point x="0.835616" y="0.727273" />
+                            <point x="0.493151" y="0.931818" />
+                            <point x="0.0273973" y="0.954545" />
+                            <point x="0.465753" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TxtTiempoNivel" sid="1724561868884675">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="MenuPrincipal" sid="4016744467079053">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="BotonIniciar" sid="3020352673158223">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427383665622381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PortadaNivel" sid="7261700522417426">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6282310168780709" speed="0">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BotonContinuar" sid="6619466805598111">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2078841917274358" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.076" y="0.345455" />
+                            <point x="0.5" y="0.0636364" />
+                            <point x="0.928" y="0.327273" />
+                            <point x="0.902" y="0.5" />
+                            <point x="0.894" y="0.518182" />
+                            <point x="0.5" y="0.8" />
+                            <point x="0.074" y="0.663636" />
+                            <point x="0.064" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botonVolverAJugar" sid="2509845141239388">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3325568922397859" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0242857" y="0.141667" />
+                            <point x="0.935714" y="0.375" />
+                            <point x="0.931429" y="0.5" />
+                            <point x="0.921429" y="0.541667" />
+                            <point x="0.06" y="0.65" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="NivelesTiempo" sid="994698761855714">
+            <plugin id="Dictionary" />
+        </object-type>
+        <object-type name="Windows8" sid="7584742689614058">
+            <plugin id="win8" />
+        </object-type>
+        <object-type name="piso" sid="7405027637962314">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9875217797566469">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="2785383689879616">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="3743597841795765">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8298150908945422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.485" y="0.035" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>MenuPrincipal.xml</layout>
+        <layout>Principal.xml</layout>
+        <layout>PortadaNivel.xml</layout>
+        <layout>Fin.xml</layout>
+        <layout>Reintentar.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Principal Event Sheet.xml</event-sheet>
+        <event-sheet>Global.xml</event-sheet>
+        <event-sheet>MenuPrincipal Event sheet .xml</event-sheet>
+        <event-sheet>PortadaNivelEvent sheet.xml</event-sheet>
+        <event-sheet>Fin Event sheet.xml</event-sheet>
+        <event-sheet>Reintentar Event sheet.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="AJAX" uid="5" />
+        <global-instance type="Function" uid="13" />
+        <global-instance type="Touch" uid="14">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Sonido" uid="16">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Windows8" uid="23">
+            <properties>
+                <test-mode>No</test-mode>
+                <about-setting>Yes</about-setting>
+                <support-setting>Yes</support-setting>
+                <privacy-setting>Yes</privacy-setting>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="MaderaW.m4a" />
+        <file name="MaderaW.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="TrompetasFinalNivelW.m4a" />
+        <file name="Noe_Memoria_juego.m4a" />
+        <file name="ContendamosSiemprePorNuestraFe.m4a" />
+        <file name="ContendamosSiemprePorNuestraFe.ogg" />
+        <file name="Noe_Memoria_juego.ogg" />
+        <file name="TrompetasFinalNivelW.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="niveles.json" />
+    </files-folder>
+</c2project>

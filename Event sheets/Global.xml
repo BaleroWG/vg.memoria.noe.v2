@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Global</name>
+    <events>
+        <variable comment='&quot;SI&quot; / &quot;NO&quot;' constant="0" name="gContarTiempo" sid="6118830811306196" static="0" type="text">&quot;SI&quot;</variable>
+        <variable comment="Tiempo en segundos del nivel actual" constant="0" name="gTiempoNivelActual" sid="8294688970541171" static="0" type="number">0</variable>
+        <variable comment="Cant. de cartas por descubrir" constant="0" name="gCantCartasPorDescubrir" sid="2405566207243821" static="0" type="number">0</variable>
+        <variable comment="Nivel actual del juego" constant="0" name="gNivelActual" sid="2952943658839176" static="0" type="number">1</variable>
+        <variable comment="Cantidad de niveles del juego" constant="1" name="gCantNiveles" sid="9310916766575836" static="0" type="number">7</variable>
+        <variable comment="Alto del HUD" constant="1" name="GHUDALTO" sid="7726635719328931" static="0" type="number">150</variable>
+        <variable comment="PLAY / PAUSE" constant="0" name="Musica" sid="7756724449352385" static="0" type="text">PLAY</variable>
+        <variable comment="Cantidad de cartas" constant="0" name="gCantCartas" sid="8506919834972697" static="0" type="number">0</variable>
+        <variable constant="0" name="gMargenIzquierdo" sid="8063894957520387" static="0" type="number">0</variable>
+        <variable constant="0" name="gMargenArriba" sid="8280577815539264" static="0" type="number">0</variable>
+        <variable constant="0" name="gTableroAlto" sid="6313341079997791" static="0" type="number">0</variable>
+        <variable constant="0" name="gTableroAncho" sid="9269497058159227" static="0" type="number">0</variable>
+        <variable comment="Key de Dic:Niveles" constant="0" name="gKeyNivelActual" sid="9969675108657287" static="0" type="text">Nivel1Cartas</variable>
+        <variable constant="0" name="gCartaAlto" sid="807925776389578" static="0" type="number">130</variable>
+        <variable constant="0" name="gEspacio" sid="7767710611272338" static="0" type="number">5</variable>
+        <variable constant="0" name="gCartaAncho" sid="4627393176898416" static="0" type="number">130</variable>
+        <variable constant="0" name="gCantMezclas" sid="3849231451454934" static="0" type="number">70</variable>
+        <variable constant="0" name="gCantCartasLevantadas" sid="7974516949841162" static="0" type="number">0</variable>
+        <variable constant="0" name="gPrimeraCartaFrame" sid="2059216124230475" static="0" type="number">-1</variable>
+        <variable constant="0" name="gSegundaCartaFrame" sid="7700762198725858" static="0" type="number">-1</variable>
+        <variable constant="0" name="TiempoEsperaTurno" sid="454815091461439" static="0" type="number">0.5</variable>
+    </events>
+</c2eventsheet>

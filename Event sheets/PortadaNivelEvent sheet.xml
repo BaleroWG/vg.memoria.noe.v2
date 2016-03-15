@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PortadaNivelEvent sheet</name>
+    <events>
+        <event-block sid="3190948667286331">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9566576082975165" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="2679110799104756" type="Sonido" />
+                <action id="5" name="Set frame" sid="1228962353460312" type="PortadaNivel">
+                    <param id="0" name="Frame number">gNivelActual - 1</param>
+                </action>
+                <action id="5" name="Set frame" sid="5460946804300759" type="PortadaNivel">
+                    <param id="0" name="Frame number">gNivelActual - 1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="4008126727834691">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4817924234854479" type="System">
+                            <param id="0" name="Variable">gNivelActual</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">GCANTNIVELES</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6729213557490214" type="System">
+                            <param id="0" name="Layout">Fin</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7127124623613507">
+            <conditions>
+                <condition id="3" name="On touched object" sid="144154317400267" type="Touch">
+                    <param id="0" name="Object">BotonContinuar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8050738798820839" type="System">
+                    <param id="0" name="Layout">Principal</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
